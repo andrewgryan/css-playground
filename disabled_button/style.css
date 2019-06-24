@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li span {
+    display: block;
+    color: #BBB;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li span:hover {
+    background-color: #111;
+}
+
+.pd {
+    padding: 14px 16px;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
